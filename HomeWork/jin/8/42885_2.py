@@ -8,3 +8,8 @@ def solution(people, limit):
         end-=1
         answer+=1
     return answer
+
+people = [70, 50, 80, 50]
+limit = 100
+
+print(solution(people,limit))

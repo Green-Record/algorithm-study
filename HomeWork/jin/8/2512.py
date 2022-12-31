@@ -2,7 +2,7 @@ N = int(input())
 budget = list(map(int, input().split()))
 M = int(input())
 
-start, end = 1, max(budget)
+start, end = M//N, max(budget)
 total_budget = 0
 
 if sum(budget) <= M:

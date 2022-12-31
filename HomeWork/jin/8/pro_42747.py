@@ -6,5 +6,4 @@ def solution(citations):
         k=[j for j in citations if j>=i]
         if len(k)>=i:
             return i
-        answer = len(k)
-    return answer
+    return len(k)

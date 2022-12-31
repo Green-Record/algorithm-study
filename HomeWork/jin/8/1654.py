@@ -1,7 +1,6 @@
 k, n = map(int,input().split())
 li = [int(input()) for _ in range(k)]
-start = min(li)//n
-end = sum(li)//n
+start, end = 1, sum(li)//n
 
 while start<=end:
     mid = (start+end)//2
